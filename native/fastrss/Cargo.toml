@@ -12,7 +12,7 @@ path = "src/lib.rs"
 [dependencies]
 lazy_static = "1.4"
 rss = {version = "1.9", features = ["serde"], default-features = false}
-rustler = "0.21"
+rustler =  {git = "git://github.com/rusterlium/rustler.git", branch="master"}
 serde = "1.0"
 serde-transcode = "1.1"
 serde_json = "1.0"

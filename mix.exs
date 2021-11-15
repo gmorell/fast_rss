@@ -59,7 +59,8 @@ defmodule FastRSS.MixProject do
   defp deps do
     [
       # rust
-      {:rustler, "~> 0.21.0"},
+      # {:rustler, "~> 0.21.0"},
+      {:rustler, git: "https://github.com/rusterlium/rustler.git", tag: "rustler-0.22.2", override: true, sparse: "rustler_mix"},
 
       # docs
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}

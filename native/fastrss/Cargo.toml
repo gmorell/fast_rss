@@ -16,4 +16,4 @@ rustler =  {git = "git://github.com/rusterlium/rustler.git", tag="rustler-0.22.2
 serde = "1.0"
 serde-transcode = "1.1"
 serde_json = "1.0"
-serde_rustler = "0.1.0"
+serde_rustler = {git = "https://github.com/gmorell/serde_rustler.git", branch="rustler-22"}
